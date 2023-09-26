@@ -1,25 +1,8 @@
-const assertEqual = function (actual, expected) {
-  if (actual === expected) {
-    console.log(`✅Assertion Passed: ${actual} === ${expected}`);
-  } else {
-    console.log(`❌Assertion Failed: ${actual} !== ${expected}`);
-  }
-};
-
-function eqArrays(arrOne, arrTwo) {
-  let ans = true;
-  for (let index = 0; index < arrOne.length; index++) {
-    if (arrOne[index] !== arrTwo[index]) {
-      ans = false;
-      return ans;
-    }
-  }
-  return ans;
-}
+const eqArrays = require('./eqArrays');
 
 // Returns true if both objects have identical keys with identical values.
 // Otherwise you get back a big fat false!
-function eqObjects(obj1, obj2) {
+const eqObjects = function(obj1, obj2) {
   const key1 = Object.keys(obj1);
   const key2 = Object.keys(obj2);
   let result = true;
@@ -41,12 +24,14 @@ function eqObjects(obj1, obj2) {
           result = false;
           return result;
         }
-      }     
+      }
     } else { // when the key lengths are the same but the key doesn't match 比如：一个key是a b c，另个是a b d
       result = false;
       return result;
     }
   }
   return result;
-}
+};
+
+module.exports = eqObjects;
 
