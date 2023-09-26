@@ -1,5 +1,5 @@
 // The map function will return a new array based on the results of the callback function.
-const map = function (array, callback) {
+const map = function(array, callback) {
   const results = [];
 
   for (const item of array) {
@@ -7,5 +7,5 @@ const map = function (array, callback) {
   }
 
   return results;
-}
+};
 

@@ -1,5 +1,5 @@
 // collecting items from the array until the callback is true and return a new array
-const takeUntil = function (array, callback) {
+const takeUntil = function(array, callback) {
   let results = [];
   for (const item of array) {
     if (callback(item)) {
@@ -8,4 +8,4 @@ const takeUntil = function (array, callback) {
       results.push(item);
     }
   }
-}
+};
