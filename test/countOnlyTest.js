@@ -1,3 +1,5 @@
+// haven't changed it to the strand testing format yet
+
 const firstNames = [
   "Karl",
   "Salima",

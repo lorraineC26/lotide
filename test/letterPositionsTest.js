@@ -1,3 +1,5 @@
+// haven't changed it to the strand testing format yet
+
 //test case #1
 let testResult = letterPositions("hello"); //or we can write: assertArraysEqual(letterPositions("hello").h, [0]);
 assertArraysEqual(testResult["h"], [0]);

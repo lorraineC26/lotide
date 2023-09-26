@@ -1,3 +1,5 @@
+// haven't changed it to the strand testing format yet
+
 //test case #1
 const multiColorShirtObject = { colors: ["red", "blue"], size: "medium" };
 const anotherMultiColorShirtObject = { size: "medium", colors: ["red", "blue"] };

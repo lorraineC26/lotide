@@ -1,3 +1,5 @@
+// haven't changed it to the strand testing format yet
+
 // for testing
 const assertEqual = function (actual, expected) {
   if (actual === expected) {

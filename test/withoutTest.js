@@ -1,3 +1,5 @@
+// haven't changed it to the strand testing format yet
+
 //test cases
 without([1, 2, 3], [1]);
 assertArraysEqual(without([1, 2, 3], [1]), [2, 3]);

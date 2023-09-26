@@ -1,3 +1,5 @@
+// haven't changed it to the strand testing format yet
+
 // below are the assertArraysEqual fx for testing
 function eqArrays(arrOne, arrTwo) {
   let ans = true;
